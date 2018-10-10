@@ -26,19 +26,20 @@
     <session id="1289920792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.4" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="361" />
+          <entry key="cs" value="1371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="361" />
+          <entry key="C#" value="1371" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,17 +56,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/open.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <marker date="1538531903755" expanded="false" signature="6:78" ph="..." />
                 <marker date="1538531903755" expanded="true" signature="113:433" ph="{...}" />
                 <marker date="1538531903755" expanded="true" signature="233:273" ph="{...}" />
                 <marker date="1538531903755" expanded="true" signature="328:431" ph="{...}" />
                 <marker date="1538531903755" expanded="true" signature="357:428" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/DoorScript.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1538766303972" expanded="false" signature="6:78" ph="..." />
+                <marker date="1538766303972" expanded="true" signature="119:795" ph="{...}" />
+                <marker date="1538766303972" expanded="true" signature="282:332" ph="{...}" />
+                <marker date="1538766303972" expanded="true" signature="348:793" ph="{...}" />
+                <marker date="1538766303972" expanded="true" signature="395:790" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,12 +95,14 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/open.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DoorScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Open.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/open.cs" />
+        <option value="$PROJECT_DIR$/Assets/DoorScript.cs" />
       </list>
     </option>
   </component>
@@ -105,10 +124,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -121,6 +136,10 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,11 +190,13 @@
       <workItem from="1538529393055" duration="964000" />
       <workItem from="1538531480538" duration="102000" />
       <workItem from="1538531663079" duration="504000" />
+      <workItem from="1538763561132" duration="1604000" />
+      <workItem from="1538765687765" duration="703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1779000" />
+    <option name="totallyTimeSpent" value="4086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,7 +210,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,13 +258,27 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/open.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <marker date="1538531903755" expanded="false" signature="6:78" ph="..." />
             <marker date="1538531903755" expanded="true" signature="113:433" ph="{...}" />
             <marker date="1538531903755" expanded="true" signature="233:273" ph="{...}" />
             <marker date="1538531903755" expanded="true" signature="328:431" ph="{...}" />
             <marker date="1538531903755" expanded="true" signature="357:428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/DoorScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1538766303972" expanded="false" signature="6:78" ph="..." />
+            <marker date="1538766303972" expanded="true" signature="119:795" ph="{...}" />
+            <marker date="1538766303972" expanded="true" signature="282:332" ph="{...}" />
+            <marker date="1538766303972" expanded="true" signature="348:793" ph="{...}" />
+            <marker date="1538766303972" expanded="true" signature="395:790" ph="{...}" />
           </folding>
         </state>
       </provider>

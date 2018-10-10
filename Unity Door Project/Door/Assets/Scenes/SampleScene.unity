@@ -495,7 +495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!54 &206334104
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3695,6 +3695,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2101864465}
+  - component: {fileID: 2101864466}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -3745,6 +3746,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101864466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2101864464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac6e22df62052e48b0be8e7385dfb38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorCubes:
+  - {fileID: 1104090577}
+  - {fileID: 291427788}
+  - {fileID: 255998328}
+  - {fileID: 436909493}
+  - {fileID: 286800677}
+  - {fileID: 1631578019}
+  - {fileID: 1221305054}
+  - {fileID: 775206326}
+  - {fileID: 23996214}
+  - {fileID: 1016244709}
+  - {fileID: 1191453605}
+  - {fileID: 1389344586}
+  - {fileID: 365236377}
+  - {fileID: 1741916127}
+  - {fileID: 2128441462}
+  - {fileID: 684580883}
+  - {fileID: 31356755}
+  - {fileID: 1706002205}
+  - {fileID: 723499839}
+  - {fileID: 223645126}
+  - {fileID: 190703874}
+  - {fileID: 2110158598}
+  - {fileID: 1861812889}
+  - {fileID: 1218040533}
+  - {fileID: 697035984}
+  - {fileID: 1342731412}
+  - {fileID: 1119653712}
+  - {fileID: 1085548796}
+  centerCube: {fileID: 365236377}
+  sinSpeed: 1
+  sinDistance: 0.5
 --- !u!1 &2110158598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 901ce675692a345468dcd6968a2d090d,

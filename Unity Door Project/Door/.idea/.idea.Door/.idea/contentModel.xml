@@ -6,6 +6,7 @@
     <e p="C:\Users\Kacper\Documents\GitHub\AINT253-Design-Process-Doors\Unity Door Project\Door" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="DoorScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Open.cs" t="Include" />
         </e>
