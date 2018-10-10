@@ -11,9 +11,14 @@ public class DoorScript : MonoBehaviour
 	public float sinSpeed;
 	public float sinDistance;
 
-	void Start()
+
+    void Awake()
+    {
+        m_center = centerCube.transform.position;
+    }
+    void Start()
 	{
-		m_center = centerCube.transform.position;
+		
 	}
 
 	void Update()
@@ -21,10 +26,10 @@ public class DoorScript : MonoBehaviour
 		for (int i = 0; i < doorCubes.Count; i++)
 		{
 			float dist = Vector3.Distance(m_center, new Vector3(doorCubes[i].transform.position.x, doorCubes[i].transform.position.y, 0.0f));
-			float sinVal = Mathf.Sin(dist * sinSpeed * Time.deltaTime);
+			float sinVal = Mathf.Sin(dist * sinSpeed * Time.time);
 			float finalVal = sinVal * sinDistance;
 			Vector3 someVal = doorCubes[i].transform.transform.position;
-			someVal.z = someVal.z + m_center.z;
+			someVal.z = someVal.z + finalVal;
 			doorCubes[i].transform.position = someVal;
 		}
 	}
