@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: e1bd174ce8c492642ba4ca1003cf5f3e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bed
+    100002: bedding
+    100004: Desk
+    100006: Floor
+    100008: L-door
+    100010: LightSwitch
+    100012: LightSwitchBox
+    100014: Line001
+    100016: Line002
+    100018: Line003
+    100020: pillowOne
+    100022: PillowTwo
+    100024: PivotDoor001
+    100026: r-door
+    100028: //RootNode
+    100030: Shelf
+    100032: Walls
+    100034: WardrobeFrame
+    400000: Bed
+    400002: bedding
+    400004: Desk
+    400006: Floor
+    400008: L-door
+    400010: LightSwitch
+    400012: LightSwitchBox
+    400014: Line001
+    400016: Line002
+    400018: Line003
+    400020: pillowOne
+    400022: PillowTwo
+    400024: PivotDoor001
+    400026: r-door
+    400028: //RootNode
+    400030: Shelf
+    400032: Walls
+    400034: WardrobeFrame
+    2100000: 'Material #24'
+    2100002: 'Material #37'
+    2100004: 'Material #50'
+    2100006: 'Material #74'
+    2300000: Bed
+    2300002: bedding
+    2300004: Desk
+    2300006: Floor
+    2300008: L-door
+    2300010: LightSwitch
+    2300012: LightSwitchBox
+    2300014: Line001
+    2300016: Line002
+    2300018: Line003
+    2300020: pillowOne
+    2300022: PillowTwo
+    2300024: PivotDoor001
+    2300026: r-door
+    2300028: Shelf
+    2300030: Walls
+    2300032: WardrobeFrame
+    3300000: Bed
+    3300002: bedding
+    3300004: Desk
+    3300006: Floor
+    3300008: L-door
+    3300010: LightSwitch
+    3300012: LightSwitchBox
+    3300014: Line001
+    3300016: Line002
+    3300018: Line003
+    3300020: pillowOne
+    3300022: PillowTwo
+    3300024: PivotDoor001
+    3300026: r-door
+    3300028: Shelf
+    3300030: Walls
+    3300032: WardrobeFrame
+    4300000: Walls
+    4300002: PivotDoor001
+    4300004: Bed
+    4300006: bedding
+    4300008: pillowOne
+    4300010: PillowTwo
+    4300012: Shelf
+    4300014: Desk
+    4300016: Floor
+    4300018: WardrobeFrame
+    4300020: L-door
+    4300022: r-door
+    4300024: Line001
+    4300026: Line002
+    4300028: Line003
+    4300030: LightSwitchBox
+    4300032: LightSwitch
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
